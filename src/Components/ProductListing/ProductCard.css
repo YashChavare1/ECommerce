@@ -1,0 +1,64 @@
+body {
+    background-color: aquamarine;
+}
+
+#Card {
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 220px;
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+
+    /* card Designing */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#Card-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+
+#Card-img img{
+    height: 100%;
+    width: 98%;
+}
+
+#Card-productName {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Card-cartBtn {
+    width: 100%;
+    height: 15%;
+
+    /* making div stick to bottom */
+    position: absolute;
+    bottom: 0;
+
+    /* center the btn */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+#Card-cartBtn button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: lightblue;
+    height: 35px;
+    width: 90%;
+    border:none;
+    border-radius: 10px;
+}
