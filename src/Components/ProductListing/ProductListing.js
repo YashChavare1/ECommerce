@@ -1,33 +1,20 @@
-import ProductCard from "./ProductCard";
-import './ProductListing.css';
-import cartLogo from "../../images/cart icon.png";
+import ProductListing_Products from "./ProductListing_Products";
+import ProductListing_Navbar from './ProductListing_Navbar';
 
 function ProductListing() {
 
-    const cartClicked = () => {
-        alert("Cart Clicked");
-    }
-
     return(
         <>
-            <center> 
-                <header id="header">
-                    <h1 id="heading">Products</h1>
-                    <img id="cartLogo" src={ cartLogo } alt="phone image" onClick={ cartClicked } />
+            <center>
+                {/* navbar  */}
+                <header>
+                    <ProductListing_Navbar />
                 </header>
 
+                {/* Product Listing */}
                 <main>
-                <ProductCard id="productCard" name="Iphone 13 pro max" />
-                <ProductCard id="productCard" name="Iphone 13 pro max" />
-                <ProductCard id="productCard" name="Iphone 13 pro max" />
-                <ProductCard id="productCard" name="Iphone 13 pro max" />
-                <ProductCard id="productCard" name="Iphone 13 pro max" />
-                <ProductCard id="productCard" name="Iphone 13 pro max" />
-                <ProductCard id="productCard" name="Iphone 13 pro max" />
-                <ProductCard id="productCard" name="Iphone 13 pro max" />
-                <ProductCard id="productCard" name="Iphone 13 pro max" />
+                    <ProductListing_Products />
                 </main>
-
             </center>
         </>
     );

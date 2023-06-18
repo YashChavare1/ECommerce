@@ -1,16 +1,15 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(179, 255, 229);
 }
 
 #Card {
     background-color: rgb(255, 255, 255);
-    height: 300px;
-    width: 220px;
+    height: 380px;
+    width: 300px;
     position: relative;
     display: inline-block;
     margin: 20px;
-
-    /* card Designing */
+    cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -53,6 +52,7 @@ body {
 }
 
 #Card-cartBtn button{
+    cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 15px;

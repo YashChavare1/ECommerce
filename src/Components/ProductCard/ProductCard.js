@@ -1,14 +1,22 @@
 import './ProductCard.css';
+import { useNavigate } from 'react-router-dom';
 
 function ProductCard(props) {
 
-    const addToCart = () => {
-        alert("Button Pressed");
+    const nav = useNavigate();
+
+    const addToCart = (event) => {
+        alert("Add to Cart Button Pressed");
+        event.stopPropagation();
+    }
+
+    const cardClicked = (name) => {
+        nav("/productdetails", {state:{"name": name}});
     }
 
     return(
         <>
-            <div id="Card">
+            <div id="Card" onClick={ () => cardClicked(props.name) }>
                 <div id="Card-img">
                     <img src="https://cdn.shopify.com/s/files/1/0632/3778/3783/products/BlueIphone-iphone-14-finish-select-202209-6-1inch-blue-removebg-preview.png?v=1679276344&width=1454&height=1056" alt="iPhone 14plus" />
                 </div>

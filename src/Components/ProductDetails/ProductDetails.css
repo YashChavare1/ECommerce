@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+#backBtn {
+    margin: 1%;
+    margin-left: 2.5%;
+}
+
+#backBtn img {
+    display: block;
+}
+
+#backBtn img:hover {
+    cursor: pointer;
+}

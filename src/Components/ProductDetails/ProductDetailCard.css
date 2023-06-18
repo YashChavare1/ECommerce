@@ -1,0 +1,107 @@
+#productDetails {
+    display: flex;
+    background-color: white;
+    width: 95%;
+    height: 450px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* left div */
+#leftImg {
+    border-radius: 20px;
+    width: 40%;
+}
+
+#img{
+    background-color: rgb(196, 196, 228);
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#img img {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+/* center div */
+
+#centerDescription {
+    display: block;
+    width: 30%;
+    padding: 2%;
+}
+
+#productDescription, #productName {
+    width: 90%;
+    margin: auto;
+}
+
+#productName {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8%;
+    font-size: 30px;
+}
+
+#productDescription {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 12%;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* right details */
+#rightDetails {
+    width: 30%;
+}
+
+#details {
+    height: 100%;
+    padding: 2%;
+    width: 90%;
+    margin: auto;
+}
+
+#price {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 20%;
+    display: flex;
+}
+
+#price p {
+    margin-left: 15%;
+    font-weight: bolder;
+}
+
+#price #amount {
+    font-weight: 400;
+    margin-left: 10%;
+    display: block;
+}
+
+#btn {
+    height: 40%;
+}
+
+#btn button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 225, 0);
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 15%;
+    top: 38%;
+    margin-bottom: 5%;
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
