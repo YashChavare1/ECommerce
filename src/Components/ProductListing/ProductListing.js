@@ -1,8 +1,7 @@
-import ProductListing_Products from "./ProductListing_Products";
+import ProductListingCard from "./ProductListingCard";
 import ProductListing_Navbar from './ProductListing_Navbar';
 
 function ProductListing() {
-
     return(
         <>
             <center>
@@ -13,7 +12,7 @@ function ProductListing() {
 
                 {/* Product Listing */}
                 <main>
-                    <ProductListing_Products />
+                    <ProductListingCard />
                 </main>
             </center>
         </>
