@@ -1,10 +1,14 @@
 import cartLogo from "../../images/cart icon.png";
 import './ProductListing_Navbar.css';
+import { useNavigate } from "react-router-dom";
 
 function ProductListing_Navbar() {
 
+    const nav = useNavigate();
+
     const cartClicked = () => {
-        alert("Add to Cart logo Clicked");
+        // alert("Add to Cart logo Clicked");
+        nav("/shoppingcart");
     }
 
     return(
