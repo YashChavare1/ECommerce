@@ -19,11 +19,12 @@ body {
     align-items: center;
     justify-content: center;
     height: 70%;
+    width: 100%;
 }
 
 #Card-img img{
-    height: 100%;
-    width: 98%;
+    max-height: 98%;
+    max-width: 100%;
 }
 
 #Card-productName {
