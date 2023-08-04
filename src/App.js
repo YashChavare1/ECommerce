@@ -1,5 +1,5 @@
-import ProductDetails from "./Components/ProductDetails/ProductDetails";
-import ProductListing from "./Components/ProductListing/ProductListing";
+import ProductDetails from "./Pages/ProductDetails";
+import ProductListing from "./Pages/ProductListing";
 import ShoppingCart from "./Components/ShoppingCart/ShoppingCart";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 

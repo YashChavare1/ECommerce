@@ -1,6 +1,6 @@
-import backLogo from '../../images/back-arrow.png';
-import ProductDetailCard from './ProductDetailCard';
-import './ProductDetails.css';
+import backLogo from '../images/back-arrow.png';
+import ProductDetailCard from '../Components/ProductDetails/ProductDetailCard';
+import '../Components/ProductDetails/ProductDetailCard.css';
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
