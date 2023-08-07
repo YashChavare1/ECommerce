@@ -1,5 +1,6 @@
 #productDetails {
     display: flex;
+    overflow: hidden;
     background-color: white;
     width: 95%;
     height: 450px;
@@ -32,13 +33,17 @@
 /* center div */
 
 #centerDescription {
+    background-color: red;
     display: block;
     width: 30%;
     padding: 2%;
+    overflow: hidden;
 }
 
 #productDescription, #productName {
+    background-color: white;
     width: 90%;
+    padding: 3%;
     margin: auto;
 }
 
@@ -50,8 +55,10 @@
 }
 
 #productDescription {
+    box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 12%;
+    overflow: hidden;
     font-size: 17px;
     line-height: 1.7;
 }
@@ -69,6 +76,9 @@
 }
 
 #price {
+    overflow: hidden;
+    background-color: blue;
+    box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
     margin-top: 7%;

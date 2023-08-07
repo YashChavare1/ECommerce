@@ -15,7 +15,7 @@ function ProductDetailCard(props) {
                     <div id="productName">{ props.name }</div>
                     <div id="productDescription">
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus illo ullam, est eum accusamus magni soluta nostrum cupiditate, necessitatibus voluptates aut voluptate? Error earum sit ab accusantium et ut, alias ipsum voluptatum culpa consequatur.
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus illo ullam, est eum accusamus 
                         </p>
                     </div>
                 </div>
